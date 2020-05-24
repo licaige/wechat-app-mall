@@ -1,46 +1,11 @@
 {
-  "pages": [
-    "pages/message/index",
-    "pages/self/index"
+  "pages":[
+    "index/index"
   ],
-  "window": {
-    "backgroundColor": "#F5F5F9",
-    "backgroundTextStyle": "light",
-    "enablePullDownRefresh": false,
-    "onReachBottomDistance": 50,
-    "navigationBarBackgroundColor": "#F7B52D",
-    "navigationBarTitleText": "李才哥",
-    "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "selectedColor": "#EEB833",
-    "color": "#888888",
-    "borderStyle": "black",
-    "backgroundColor": "#fff",
-    "list": [
-      {
-        "pagePath": "pages/self/index",
-        "text": "个人",
-        "iconPath": "images/icon_profile_def.png",
-        "selectedIconPath": "images/icon_profile_sel.png"
-      },
-      {
-        "pagePath": "pages/message/index",
-        "text": "更多资讯",
-        "iconPath": "images/icon_messages_def.png",
-        "selectedIconPath": "images/icon_messages_sel.png"
-      }
-    ]
-  },
-  "networkTimeout": {
-    "request": 30000,
-    "downloadFile": 10000
-  },
-  "debug": true,
-  "permission": {
-    "scope.userLocation": {
-      "desc": "您的位置信息将用于小程序更好的提供服务"
-    }
-  },
-  "sitemapLocation": "sitemap.json"
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
 }

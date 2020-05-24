@@ -1,33 +1,16 @@
 {
-	"description": "项目配置文件",
-	"packOptions": {
-		"ignore": []
-	},
+	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true,
-		"coverView": true,
-		"autoAudits": false,
-		"checkInvalidKey": true,
-		"checkSiteMap": true,
-		"uploadWithSourceMap": true,
-		"babelSetting": {
-			"ignore": [],
-			"disablePlugins": [],
-			"outputPath": ""
-		}
+		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.8.2",
+	"libVersion": "1.9.94",
 	"appid": "wx67fbcf8a6743aba0",
 	"projectname": "licaige",
-	"debugOptions": {
-		"hidedInDevtools": []
-	},
-	"isGameTourist": false,
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
