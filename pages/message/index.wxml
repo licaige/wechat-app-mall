@@ -1,0 +1,57 @@
+<!--主题内容部分-->
+<view>
+  <view>
+    <image  src="/images/02.jpg" class="slide-image" mode="aspectFill" />
+  </view>
+<!--  时间组件-->
+<!--  <view>
+    <button bindtap="pickerShow" style="width:80vw;margin-top:20px">显示picker</button>
+  </view>-->
+<!--  显示框-->
+  <view style="text-align:center;margin-top:20px" bindtap="pickerShow">
+    <view wx:if="{{startTime}}">
+      开始时间：{{startTime}}
+    </view>
+    <view wx:if="{{endTime}}">
+      结束时间：{{endTime}}
+    </view>
+  </view>
+<!--  组件-->
+  <time-picker pickerShow="{{isPickerShow}}" id="picker" wx:if="{{isPickerRender}}" bind:hidePicker="pickerHide" bind:setPickerTime="setPickerTime"
+               config="{{pickerConfig}}"></time-picker>
+<!--  -->
+  <view class="text-center">
+    <text>琦点和他的朋友们最想做的事</text>
+    <text>是帮助千千万万平凡的个体</text>
+    <text>学更全的知识</text>
+    <text>赚更多的财富</text>
+    <text>过更棒的生活</text>
+    <text>有更好的未来</text>
+    <text>琦点和他的朋友们</text>
+    <text>开通个人公众号</text>
+    <text>他的读者表示干货满满相见恨晚</text>
+  </view>
+  <view>
+    <image  src="/images/03.jpg" class="slide-image" mode="aspectFill" />
+  </view>
+  <view class="text-center">
+    <text>他个人公众号名字叫"李才哥"</text>
+    <text>主题是</text>
+    <text>看见是改变的开始，</text>
+    <text>践行才是改变的抵达。</text>
+    <text>努力做你身边最真诚，最值得置顶的公号</text>
+    <text>在这里你可以得到</text>
+    <text>时间管理</text>
+    <text> 赚钱秘诀</text>
+    <text>技能学习</text>
+    <text>人生规划</text>
+    <text>社会思考</text>
+    <text>创业秘籍</text>
+    <text>人际关系</text>
+    <text>沟通秘诀</text>
+    <text>理财管理</text>
+  </view>
+  <view>
+    <image  src="/images/11.jpg" class="slide-image" mode="aspectFill" />
+  </view>
+</view>

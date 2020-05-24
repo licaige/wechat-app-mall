@@ -1,0 +1,28 @@
+.slide-banner{
+    width: 750rpx;
+    box-sizing: border-box;
+    height: 500rpx;
+}
+.slide-image{
+    display: block;
+    width: 750rpx;
+}
+/*文字部分*/
+.massage{
+    width: 750rpx;
+    box-sizing: border-box;
+    margin-top: 30rpx;
+    padding-right: 30rpx;
+    padding-left: 30rpx;
+    font-size: 30rpx;
+    line-height: 50rpx;
+}
+.text-center{
+    display: flex;
+    margin-top: 30rpx;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30rpx;
+    line-height: 50rpx;
+}

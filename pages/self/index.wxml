@@ -1,0 +1,55 @@
+<!--轮播图-->
+<view>
+  <swiper class="slide-banner" indicator-dots="true" indicator-color="rgba(0, 0, 0, .5)" indicator-active-color="#FFFFFF" autoplay="true" interval="5000" duration="200" circular="true">
+    <block wx:for="{{banners}}" wx:key="item">
+      <swiper-item>
+        <!--图片-->
+        <image  src="{{item.imageUrl}}" class="slide-image" mode="aspectFill" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!--主题内容部分-->
+<view>
+  <!--第一行部分-->
+  <view>
+    <image  src="/images/03.jpg" class="slide-image" mode="aspectFill" />
+  </view>
+  <view class="massage">
+    图片上的他，一位年轻人，来自于中国最大的村，农村！走过世界最长的路，叫套路！他是一个勤奋与智慧并存的正直人，他对美好未来的憧憬， 使得他走上了一条风里来雨里去的日子，出门10年赚了两个忆，一个回忆一个失忆！每天用6位数的密码保护着2位数的存款，在2019年，还请大家多关照这个农村来的孩子！谢谢各位亲朋和好友你们默默地支持和疼爱！！
+  </view>
+  <view>
+    <image  src="/images/01.jpg" class="slide-image" mode="aspectFill" />
+  </view>
+  <view class="massage">
+    他毕业之后曾到一家**工作，月薪只有*000，上司对他说，对待事情不要太认真，绝不相信下班后他还会看书学习，不学会喝白酒搞关系就别想着升职，还讽刺他一辈子都买不起房。他忍住委屈的眼泪，没有反驳一句话，只恨自己不够强，只想用行动来证明。
+  </view>
+  <view>
+    <image  src="/images/09.jpg" class="slide-image" mode="aspectFill" />
+  </view>
+  <view class="massage">
+    每一天，你将受到才哥的理论，结合历史、政治、文化、艺术、商业故事，令人防不胜防的高纯度无死角知识轰炸。以及，不间断的私藏书籍、电影推荐。
+    有时候，某件事虽记不清楚，但总感觉这样的事在很久很久以前发生过...
+    有时候，某个人虽从未见过，但总感觉面前的人在另一个时空里曾遇见......
+    那时候相忘于江湖的事，或许穿越了时光，有了新的世界;
+    那时候不远万里追寻的梦，也许穿行过人海，也有了新的意义;
+    而对于我们来说，那个惦念的江湖，那个执着的梦，其核心都是在偌大的世界里，寻找到更真实更好的自己！
+  </view>
+  <view>
+    <image  src="/images/02.jpg" class="slide-image" mode="aspectFill" />
+  </view>
+  <view class="text-center">
+    <text>琦点和他的朋友们最想做的事</text>
+    <text>是帮助千千万万平凡的个体</text>
+    <text>学更全的知识</text>
+    <text>赚更多的财富</text>
+    <text>过更棒的生活</text>
+    <text>有更好的未来</text>
+    <text>琦点和他的朋友们</text>
+    <text>开通个人公众号</text>
+    <text>他的读者表示干货满满相见恨晚</text>
+  </view>
+  <view>
+    <image  src="/images/03.jpg" class="slide-image" mode="aspectFill" />
+  </view>
+</view>
