@@ -1,10 +1,10 @@
 {
   "description": "项目配置文件。",
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
-    "enhance": false,
-    "postcss": true,
+    "enhance": true,
+    "postcss": false,
     "preloadBackgroundData": false,
     "minified": true,
     "newFeature": true,
@@ -13,11 +13,10 @@
     "autoAudits": false,
     "showShadowRootInWxmlPanel": true,
     "scopeDataCheck": false,
-    "uglifyFileName": false,
     "checkInvalidKey": true,
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
+    "compileHotReLoad": true,
     "useMultiFrameRuntime": false,
     "useApiHook": true,
     "babelSetting": {
@@ -25,18 +24,20 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "enableEngineNative": false,
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true
+    "minifyWXSS": true,
+    "bundle": false
   },
   "compileType": "miniprogram",
-  "libVersion": "1.9.94",
+  "libVersion": "2.14.0",
   "appid": "wx67fbcf8a6743aba0",
-  "projectname": "licaige",
+  "projectname": "%E5%A4%A9%E4%BD%BF%E7%AB%A5%E8%A3%85",
+  "scripts": {},
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
@@ -46,12 +47,80 @@
     "conversation": {
       "list": []
     },
+    "plugin": {
+      "list": []
+    },
     "game": {
-      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
       "list": []
     },
     "miniprogram": {
-      "list": []
+      "list": [
+        {
+          "id": -1,
+          "name": "home",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "商品详情页面",
+          "pathName": "pages/goods-details/index",
+          "query": "id=134&inviter_id=456",
+          "scene": 1011
+        },
+        {
+          "id": -1,
+          "name": "商品详情页面",
+          "pathName": "pages/goods-details/index",
+          "query": "id= 6761",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "砍价详情页面",
+          "pathName": "pages/goods-details/index",
+          "query": "id=6765",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "砍价详情页面",
+          "pathName": "pages/goods-details/index",
+          "query": "id=6765&kjJoinUid=701677",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "拼团",
+          "pathName": "pages/goods-details/index",
+          "query": "id=6761",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "生成海报",
+          "pathName": "pages/goods-details/poster",
+          "query": "goodsid=6761",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "分销中心",
+          "pathName": "pages/fx/apply-status",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "notice",
+          "pathName": "pages/notice/index",
+          "scene": null
+        }
+      ]
     }
   }
 }
